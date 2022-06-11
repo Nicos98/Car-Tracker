@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Family Tracker | Nico's Family</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/Home.html" id="navbar__logo"><i class="fab fa-gripfire"></i>Nico's Family</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/Home.html" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/map.html" class="navbar__links">Mappa</a>
+          </li>
+          <li class="navbar__btn"><a href="./Log in/index.html" class="button">Accedi</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="main">
+      <div class="main__container_info">
+        <div class="main__content_info">
+          <h1>Su cosa si basa la tecnologia GPS Tracking?</h1>
+          <div class="row">
+            <div class="row">
+              <div class="col" style="float: left; text-align: justify; width: 47%;">  
+                <p>
+                  La tecnologia GPS Tracking si basa sulla triangolazione di un segnale GPS emesso dal relativo modulo integrato ad Arduino UNO, posizionato su ogni auto.
+                  Tale segnale viene ricevuto ed elaborato da un server dedicato il quale, attraverso l' API di google, dà l' opportunità di visualizzare un puntatore
+                  sulla mappa presente nella relativa pagina.
+                </p>
+              </div>
+              <div class="col" style="float: right; text-align: justify; width: 47%;">
+                <img id="main__img_info" src="https://1000marche.net/wp-content/uploads/2021/08/Google-Maps-logo.png"/>
+               <img id="main__img_info2" src="https://media.istockphoto.com/vectors/with-gear-icon-linear-vector-id1206186579?k=20&m=1206186579&s=170667a&w=0&h=Z1g58ZR15A9GgE2y40f-RTFLn72xj7jELkNMHDkn87w=" />
+               <div class="col" style="float: right; text-align: center; width: 55rem;">
+                <img id="main__img_info3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/2560px-Arduino_Logo.svg.png"/>
+              </div>
+              </div>
+            <div style="clear: both;">
+            </div>
+          </div>
+          
+          <div style="clear: both;">
+          </div>
+        </div>    
+      </div>
+       
+
+      <!-- Footer Section -->
+      <div class="footer__container_info">
+        <div class="footer__links">
+          <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+              <h2>About Us</h2>
+              <a href="">Prodotti</a>
+              <a href="">Certificazioni</a><a href="">Careers</a>
+            </div>
+            <div class="footer__link--items">
+              <h2>Contact Us</h2>
+              <a href="">Contatti</a> <a href="">Supporto</a>
+              <a href="">Dove ci troviamo</a>
+            </div>
+          </div>
+          <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+              <h2>Social Media</h2>
+              <a href="">Facebook</a>
+              <a href="">Youtube</a>
+              <a href="">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+        <section class="social__media">
+          <div class="social__media--wrap">
+            <div class="footer__logo">
+              <a href="Home.html" id="footer__logo"><i class="fab fa-gripfire"></i>Nico's Family</a>
+            </div>
+            <p class="website__rights">© N. Tonello 2022. All rights reserved</p>
+            <div class="social__icons">
+              <a
+                class="social__icon--link"
+                href=""
+                target="_blank"
+                aria-label="Facebook"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a
+                class="social__icon--link"
+                href=""
+                target="_blank"
+                aria-label="Youtube"
+              >
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a
+                class="social__icon--link"
+                href=""
+                target="_blank"
+                aria-label="LinkedIn"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

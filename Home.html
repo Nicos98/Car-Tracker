@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Family Tracker | Nico's Family</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="map.js"></script>
+    <script src="/DB/data.js"></script>
+  </head>
+  <body>
+    
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/Home.html" id="navbar__logo"><i class="fab fa-gripfire"></i>Nico's Family</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/selection.html" class="navbar__links">Famiglia</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/map.html" class="navbar__links">Mappa</a>
+          </li>
+          <li class="navbar__btn"><a href="./Log in/index.html" class="button">Accedi</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>FAMILY TRACKER</h1>
+          <h2>TECHNOLOGY</h2>
+          <p>Trova i componenti della tua famiglia più vicini a te.</p>
+          <button class="main__btn"><a href="selection.html">Inizia</a></button>
+        </div>
+        <div class="main__img--container">
+          <img id="main__img" src="images/pic1.svg" />
+        </div>
+      </div>
+    </div>
+
+    
+    Localizzazione (test di sola visualizzazione dati DB)
+      <div id="location">
+        <h3>ID: </h3>
+        <p id="id"></p>
+        <h3>Latitudine: </h3>
+        <p id="lat"></p>
+        <h3>Longitudine: </h3>
+        <p id="lon"></p>
+        <h3>Data: </h3>
+        <p id="date"></p>
+      </div>
+  
+      
+      <!-- Services Section -->
+    <div class="services">
+      <h1>Scopri di cosa si tratta</h1>
+      <div class="services__container">
+        <div class="services__card">
+          <h2>Family Tracker</h2>
+          <p>GPS tracking technology</p>
+          <button class="main__btn"><a href="info.html">Scopri</a></button>
+        </div>
+      </div>
+    </div>
+
+      <!-- Footer Section -->
+      <div class="footer__container_info">
+        <div class="footer__links">
+          <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+              <h2>About Us</h2>
+              <a href="">Prodotti</a>
+              <a href="">Certificazioni</a><a href="">Careers</a>
+            </div>
+            <div class="footer__link--items">
+              <h2>Contact Us</h2>
+              <a href="">Contatti</a> <a href="">Supporto</a>
+              <a href="">Dove ci troviamo</a>
+            </div>
+          </div>
+          <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+              <h2>Social Media</h2>
+              <a href="">Facebook</a>
+              <a href="">Youtube</a>
+              <a href="">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+        <section class="social__media">
+          <div class="social__media--wrap">
+            <div class="footer__logo">
+              <a href="" id="footer__logo"><i class="fab fa-gripfire"></i>Nico's Family</a>
+            </div>
+            <p class="website__rights">© N. Tonello 2022. All rights reserved</p>
+            <div class="social__icons">
+              <a
+                class="social__icon--link"
+                href=""
+                target="_blank"
+                aria-label="Facebook"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a
+                class="social__icon--link"
+                href=""
+                target="_blank"
+                aria-label="Youtube"
+              >
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a
+                class="social__icon--link"
+                href=""
+                target="_blank"
+                aria-label="LinkedIn"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </body>
+</html>
